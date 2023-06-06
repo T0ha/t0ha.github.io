@@ -1,0 +1,74 @@
+{
+  "github": {
+    "user": "T0ha",
+    "repo": "t0ha.github.io",
+    "branch": "main",
+    "token": "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",
+    "automaticallyMergePR": true,
+    "api": {
+      "tiersForApi": "Github Free/Pro/Team (default)",
+      "hostname": ""
+    },
+    "worflow": {
+      "customCommitMsg": "[PUBLISHER] MERGE",
+      "workflowName": ""
+    }
+  },
+  "upload": {
+    "behavior": "fixed",
+    "defaultName": "",
+    "rootFolder": "",
+    "yamlFolderKey": "",
+    "frontmatterTitle": {
+      "enable": false,
+      "key": "title"
+    },
+    "replaceTitle": [],
+    "replacePath": [],
+    "autoclean": {
+      "enable": false,
+      "excluded": []
+    },
+    "folderNote": {
+      "enable": false,
+      "rename": "index.md"
+    },
+    "metadataExtractorPath": ""
+  },
+  "conversion": {
+    "hardbreak": false,
+    "dataview": true,
+    "censorText": [],
+    "tags": {
+      "inline": false,
+      "exclude": [],
+      "fields": []
+    },
+    "links": {
+      "internal": true,
+      "unshared": true,
+      "wiki": true,
+      "slugify": false
+    }
+  },
+  "embed": {
+    "attachments": true,
+    "keySendFile": [],
+    "notes": false,
+    "folder": "assets/binary"
+  },
+  "plugin": {
+    "shareKey": "published",
+    "fileMenu": true,
+    "editorMenu": true,
+    "excludedFolder": [],
+    "copyLink": {
+      "enable": false,
+      "links": "t0ha.ru",
+      "removePart": [],
+      "addCmd": false
+    },
+    "noticeError": false,
+    "displayModalRepoEditing": false
+  }
+}
