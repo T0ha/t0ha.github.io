@@ -19,7 +19,7 @@ group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
   gem 'jekyll-sitemap'
   #gem 'jekfyll-import'
-  gem 'jekyll-analytics'
+  #gem 'jekyll-analytics'
   gem 'jekyll-seo-tag'
 end
 

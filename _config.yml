@@ -46,7 +46,7 @@ plugins:
   - jekyll-feed
     #- jekyll-import
   - jekyll-sitemap
-  - jekyll-analytics
+    #- jekyll-analytics
   - jekyll-seo-tag
 
 # Exclude from processing.
@@ -69,7 +69,8 @@ plugins:
 #   - vendor/gems/
 #   - vendor/ruby/
 
-jekyll_analytics:
-  GoogleAnalytics:          # Add, if you want to track with Google Analytics
-    id: UA-38006033-1
-    anonymizeIp: false    
+    #jekyll_analytics:
+    #  GoogleAnalytics:          # Add, if you want to track with Google Analytics
+    #    id: UA-38006033-1
+    #    anonymizeIp: false    
+google_analytics: UA-38006033-1
