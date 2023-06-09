@@ -19,6 +19,7 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Anton Shvein
+logo: /assets/images/t0ha.jpeg
 tagline: Full-stack developer, Enterpreneur and Master of Biology
 email: t0hashvein@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
@@ -27,6 +28,8 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://t0ha.ru" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: t0ha666
 github_username:  T0ha
+twitter:
+  username: t0ha666
 
 #author:
 #  social:
@@ -41,6 +44,7 @@ menu:
 
 # Build settings
 theme: minima
+show_excerpts: true
 #theme: jekyll-theme-hydejack
 plugins:
   - jekyll-feed
