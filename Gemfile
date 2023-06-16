@@ -18,9 +18,10 @@ gem "jekyll-theme-hydejack"
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
   gem 'jekyll-sitemap'
-  #gem 'jekfyll-import'
+  gem 'jekyll-import'
   #gem 'jekyll-analytics'
   gem 'jekyll-seo-tag'
+  gem 'jekyll-remote-theme'
 end
 
 gem "rss"
