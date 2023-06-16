@@ -13,6 +13,5 @@ categories:
   - post_type
   - topic
 published: true
-
 ---
 Content
