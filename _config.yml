@@ -31,10 +31,22 @@ github_username:  T0ha
 twitter:
   username: t0ha666
 
-#author:
-#  social:
-#    twitter: T0ha666
-#    github:  T0ha
+author:
+  name: Anton Shvein
+  email: t0hashvein@gmail.com
+
+minima:
+  social_links:
+    - platform: twitter
+      user_url: https://twitter.com/T0ha666
+    - platform: github
+      user_url:  https://github.com/T0ha
+    - platform: linkedin
+      user_url: https://www.linkedin.com/in/anton-shvein/
+    - platform: stackoverflow
+      user_url: https://stackoverflow.com/users/3489550/t0ha
+    - platform: telegram
+      user_url: https://t.me/war1and
 
 menu:
   - title: Blog
