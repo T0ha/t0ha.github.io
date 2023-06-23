@@ -39,14 +39,17 @@
               "categories"
             ],
             "columns": {
-              "No status": {
+              "idea": {
                 "weight": 0
               },
-              "idea": {
+              "edit": {
                 "weight": 1
               },
-              "copy": {
+              "advertise": {
                 "weight": 2
+              },
+              "trash": {
+                "weight": 3
               }
             }
           },
