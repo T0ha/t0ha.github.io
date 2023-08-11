@@ -48,11 +48,9 @@ minima:
     - platform: telegram
       user_url: https://t.me/war1and
 
-menu:
-  - title: Blog
-    path: /
-  - title: About
-    path: /about
+header_pages:
+  - index.md
+  - contacts.md
 
 # Build settings
 remote_theme: jekyll/minima
