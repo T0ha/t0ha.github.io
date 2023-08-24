@@ -2,8 +2,7 @@
 layout: post
 locale: en_US
 title: "How To: Deploying Phoenix Application on Ubuntu 20.04 LTS"
-description: >-
-    Guides through entire process of Phoenix Web Framework application deployment to Ubuntu 20.04 LTS server. 
+description: "Master the Art of Deploying Phoenix Applications on Ubuntu 20.04LTS! Our expert guide will equip you with the knowledge and skills needed to smoothly navigate the deployment process. Get ready to embark on a journey towards application success!"
 image: /assets/images/posts/image.png
 tags:
   - devops

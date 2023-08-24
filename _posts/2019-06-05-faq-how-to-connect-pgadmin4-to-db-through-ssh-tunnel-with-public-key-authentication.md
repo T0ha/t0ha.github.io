@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "FAQ: How to connect PGAdmin4 to DB through SSH tunnel with Public key authentication"
-description: Describes how to solve an issue with connecting PGAdmin4 to the server through SSH tunnel using public key authentication.
+description: Discover the Ultimate Solution for Connecting pgAdmin4 to a Database via SSH Tunnel and Public Key Authentication! Our detailed FAQ article provides all the answers you need to establish a rock-solid connection. Say goodbye to connectivity issues and hello to seamless database management!
 image: /assets/images/posts/pgadmin_top.png
 tags:
   - pgadmin
