@@ -2,8 +2,8 @@
 layout: post
 locale: en_US
 title: "How To: Deploying Phoenix Application on Ubuntu 20.04 LTS"
-description: "Master the Art of Deploying Phoenix Applications on Ubuntu 20.04LTS! Our expert guide will equip you with the knowledge and skills needed to smoothly navigate the deployment process. Get ready to embark on a journey towards application success!"
-image: /assets/images/posts/image.png
+description: Master the Art of Deploying Phoenix Applications on Ubuntu 20.04LTS! Our expert guide will equip you with the knowledge and skills needed to smoothly navigate the deployment process. Get ready to embark on a journey towards application success!
+image: /assets/images/posts/phoenix_ubuntu.png
 tags:
   - devops
   - elixir
@@ -18,7 +18,7 @@ categories:
   - elixir
 published: true
 ---
-
+![Top image](/assets/images/posts/phoenix_ubuntu.png)
 Phoenix is cool, right? You've just created your brilliant web
 application and it works fine on your local machine. It's awesome, but
 nobody knows about it. Stop, your friend knows, because you've told him
