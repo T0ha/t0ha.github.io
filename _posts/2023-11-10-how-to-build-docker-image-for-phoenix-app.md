@@ -19,8 +19,7 @@ categories:
   - elixir
 published: true
 ---
-![Top image]({{ page.image }}){: style="margin-left: 200px; margin-bottom: 50px;" }
-
+![Top image]({{ page.image }}){: style="margin-left: 200px; margin-bottom: 50px; display: block;" }
 Deploying your project to a bare metal server or VPS like described in [the previous article]({% link  _posts/2021-05-15-how-to-deploying-phoenix-application-on-ubuntu-20.04LTS.md %}) is fine at the very begining. But when it comes to thousands or even better millions of users it becomes necessary to scale the deployment. This is where docker comes into play. It has gained immense popularity in recent years due to its ability to simplify the deployment process and create isolated environments for applications. Allowing developers to package their applications along with all the necessary dependencies into a single container and making it easier to deploy and run the application on any platform docker has become an industry standard.
 
 In this article, we will discuss how to create a Docker image for a Phoenix application, which is a popular web framework in Elixir.
