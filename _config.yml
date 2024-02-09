@@ -49,8 +49,13 @@ minima:
       user_url: https://t.me/war1and
 
 header_pages:
+  - projects.md
   - index.md
   - contacts.md
+
+collections:
+  projects:
+    sort_by: date
 
 # Build settings
 remote_theme: jekyll/minima
