@@ -8,7 +8,7 @@ tags:
   - weekly
   - learn
   - digest
-status: idea
+status: published
 categories:
   - en
   - weekly
