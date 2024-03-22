@@ -3,7 +3,7 @@ layout: post
 locale: en_US
 title: Weekly digest
 description: Weekly summery of what I've learnt and discovered all over there.
-image: /assets/images/posts/image.png
+image: /assets/images/weekly/weekly.jpg
 tags:
   - weekly
   - learn
