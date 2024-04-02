@@ -14,11 +14,15 @@ categories:
   - weekly
   - automation
 published: true
+excerpt_separator: <!--more-->
 ---
 Happy spring! 
 
+<!--more-->
+
 ## Weekly Learn
 Here what I've learnt this week. It's a collection of materials  in several languages with my comments.
+
 ### Podcasts
 - 
 ### Books
