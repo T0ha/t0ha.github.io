@@ -20,6 +20,7 @@ categories:
 published: true
 excerpt_separator: <!--more-->
 ---
+![Top image]({{ page.image }})
 This was a short week for me. I have a day-off today but i still publish this digest. Since I was busy with PhD studies this week still not too much other stuff.
 The other achievements are
 - I've learnt to use and debug Leonardo.AI queries;

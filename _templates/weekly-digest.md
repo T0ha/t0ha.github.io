@@ -16,6 +16,7 @@ categories:
 published: true
 excerpt_separator: <!--more-->
 ---
+![Top image]({{ page.image }})
 Happy spring! 
 
 <!--more-->
