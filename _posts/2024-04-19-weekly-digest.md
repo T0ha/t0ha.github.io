@@ -50,6 +50,6 @@ No articles this week
 - [Lesson 1 - Basic Prompt Structure - YouTube](https://www.youtube.com/watch?v=nRARV77U9Bw) I've just started my way but...
 
 ### Telegram
-I'm going even deeper int Mahayana Buddhism.
+I'm going even deeper into Mahayana Buddhism.
 - [Сохраним Тибет](https://t.me/savetibetlivecast)
 - [Тубден Шедублинг](https://t.me/buddha_temple)
