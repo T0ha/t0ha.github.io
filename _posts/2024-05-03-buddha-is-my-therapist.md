@@ -2,7 +2,6 @@
 layout: post
 locale: ru_RU
 title: Будда - мой психотерапевт
-description: Description
 image: /assets/images/posts/buddha_is_my_therapist/buddha_1_to_1_square.jpg
 tags:
   - psychology
