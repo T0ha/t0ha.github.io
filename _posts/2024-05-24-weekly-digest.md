@@ -33,7 +33,7 @@ Except that, I started my [Live coding: Rock, Code, (N)VIM](https://www.twitch.t
 Here what I've learnt this week. It's a collection of materials  in several languages with my comments.
 
 ### Podcasts
-- [Site Unreachable](https://podcast.thinkingelixir.com/202) (EN)
+- [Thinking Elixir News - Episode 202](https://podcast.thinkingelixir.com/202) (EN)
 - [Книга #428 - 451 градус по Фаренгейту — Подкаст «Книги на миллион - бизнес блог»](https://ikniga.mave.digital/ep-440)(RU)
 - [Экологичная позитивность — Подкаст «Эмоциональный Интеллигент»](https://emotional.mave.digital/ep-133)(RU)
 - [The Bootstrapped Founder - 320: Dr. Jessica Gold — Emotional Resilience and Self-Care for Founders](https://tbf.fm/episodes/320-dr-jessica-gold-emotional-resilience-and-self-care-for-founders)(EN)
@@ -44,7 +44,7 @@ Close to finish with Shamatha chapter of Alan Wallace's "The Four Immeasurables:
 
 ### Articles
 - [Elixir Streams \|\> 😎 A cool use of Elixir's \`String.split/2\` I didn't know about](https://www.elixirstreams.com/tips/string-split?utm_source=elixir-merge)
-- [Site Unreachable](https://medium.com/@devhellomello/new-computer-setup-for-techies-2024-neovim-and-ollama-and-fish-oh-my-60cf3879bad8)
+- [# New Computer Setup for Techies 2024: NeoVim and Ollama and fish, oh my!](https://medium.com/@devhellomello/new-computer-setup-for-techies-2024-neovim-and-ollama-and-fish-oh-my-60cf3879bad8)
 - [Tools that keep me productive - DEV Community](https://dev.to/nickytonline/tools-that-keep-me-productive-1no5)
 
 
