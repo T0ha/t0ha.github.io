@@ -10,7 +10,7 @@ permalink: /projects/
     {% if project.opensource -%}
       {%- if project.page -%}
 - [{{project.path | remove: "_projects/" | remove: ".md"}}]({{project.page}})
-     {% elsif project.github- %}
+     {% elsif project.github -%}
 - [{{project.path | remove: "_projects/" | remove: ".md"}}]({{project.github}})
       {%- else -%}
 - **{{project.path | remove: "_projects/" | remove: ".md"}}**
