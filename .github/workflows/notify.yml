@@ -1,0 +1,21 @@
+name: Notify automation for SM
+on: 
+  workflow_run:
+    workflows: [pages-build-deployment]
+    types:
+      - completed
+
+defaults:
+  run:
+    shell: bash
+env:
+  JEKYLL_ENV: production
+
+jobs:
+  notify:
+    name: Notify
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Notify Taskade
+        run: "curl -X POST -d '{}' -H 'Content-Type: application/json' ${{ secrets.TASKADE_WEBHOOK_URL}}"
