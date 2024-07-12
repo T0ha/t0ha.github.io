@@ -1,7 +1,7 @@
 name: Notify automation for SM
 on: 
   workflow_run:
-    workflows: [Deploy Jekyll site to Page]
+    workflows: [Deploy Jekyll site to Pages]
     types:
       - completed
 
