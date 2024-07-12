@@ -22,7 +22,7 @@ categories:
 published: true
 excerpt_separator: <!--more-->
 ---
-![Top image]({{page.image}})
+{% picture "{{page.image}}" %}
 
 💻 It was a short week for me because I had vacations on Thu and Fri. I've mostly started integrating `TelemetryMetricsMnesia` into client's software. I've set up goals for Jul. 
 

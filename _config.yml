@@ -26,6 +26,9 @@ description: >- # this means to ignore newlines until "baseurl:"
   I'm a full-stack software developer for a dozen of years. Enterpreneur and founder. Master of Biology. PhD studies in progress. Fond of travelling, boldering and sports.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://t0ha.ru" # the base hostname & protocol for your site, e.g. http://example.com
+
+lsi: true
+
 twitter_username: t0ha666
 github_username:  T0ha
 twitter:
@@ -56,10 +59,13 @@ header_pages:
 collections:
   projects:
     sort_by: date
+  buddhism:
+    sort_by: date
 
 # Build settings
 remote_theme: jekyll/minima
 show_excerpts: true
+
 #theme: jekyll-theme-hydejack
 plugins:
   - jekyll-feed
@@ -68,6 +74,8 @@ plugins:
     #- jekyll-analytics
   - jekyll-seo-tag
   - jekyll-remote-theme
+  - classifier-reborn
+  - jekyll_picture_tag
 
 # Exclude from processing.
 # The following items will not be processed, by default.

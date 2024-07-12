@@ -23,10 +23,12 @@ group :jekyll_plugins do
   #gem 'jekyll-analytics'
   gem 'jekyll-seo-tag'
   gem 'jekyll-remote-theme'
+  gem 'jekyll_picture_tag'
 end
 
 gem "rss"
 gem "safe_yaml"
+gem 'classifier-reborn'
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
 # and associated library.
