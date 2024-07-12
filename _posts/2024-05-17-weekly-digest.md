@@ -26,7 +26,7 @@ categories:
 published: true
 excerpt_separator: <!--more-->
 ---
-![Top image]({{page.image}})
+{% picture "{{page.image}}" --alt Buddha with flower %}
 
 This is the second week of Saga-dava. So I practice more than usual: read, meditate and donate to Sangha.
 

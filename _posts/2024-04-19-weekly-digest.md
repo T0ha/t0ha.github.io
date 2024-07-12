@@ -20,7 +20,7 @@ categories:
 published: true
 excerpt_separator: <!--more-->
 ---
-![Top image]({{ page.image }})
+{% picture "{{page.image}}" --alt Child with birthday cake %}
 
 Today my smaller son has a Birthday! He is 1 y.o.! Happy Birthday!!! 🎁🎁🎁🎂🎉
 

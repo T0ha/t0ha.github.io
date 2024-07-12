@@ -20,7 +20,7 @@ categories:
 published: true
 excerpt_separator: <!--more-->
 ---
-![Lizzard on Curonian Spit]({{page.image}})
+{% picture "{{page.image}}" --alt Lizard on Curonian Spit %}
 
 💻 Working hard on integrating Open source LLM for Lama Bot.  Testing LLMs and trying to use them with Bumblebee.
 

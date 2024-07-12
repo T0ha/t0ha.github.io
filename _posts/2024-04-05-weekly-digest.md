@@ -18,7 +18,7 @@ categories:
 published: true
 excerpt_separator: <!--more-->
 ---
-![Top image]({{page.image }})
+{% picture "{{page.image}}" --alt Buddha in the dark %}
 
 It was a busy week. It was mostly devoted to PhD english exam materials collecting and ecology studies. 
 Since I usually listen podcasts in the car and this week I was mostly working from home there are no much of them.

@@ -23,7 +23,7 @@ categories:
 published: true
 excerpt_separator: <!--more-->
 ---
-![Kant's cathedral]({{page.image}})
+{% picture "{{page.image}}" --alt Kant's cathedral %}
 
 💻 I've finished the timings and complexity issue in [TelemetryMetricsMnesia](https://github.com/T0ha/telemetry_metrics_mnesia) library for Elixir and integrating it into client's software.
 

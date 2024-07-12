@@ -15,7 +15,7 @@ categories:
 published: true
 excerpt_separator: <!--more-->
 ---
-![Top image]({{page.image}})
+{% picture "{{page.image}}" --alt Labour day %}
 
 Happy Spring and Labour Day! 
 This week was very short. It has only 2 business days due to holidays. 

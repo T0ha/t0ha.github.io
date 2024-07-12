@@ -2,7 +2,6 @@
 layout: post
 locale: en_US
 title: Weekly digest
-description: Weekly summary of what I've learnt and discovered all over there.
 image: /assets/images/weekly/weekly.jpg
 tags:
   - weekly
@@ -20,7 +19,8 @@ categories:
 published: true
 excerpt_separator: <!--more-->
 ---
-![Top image]({{ page.image }})
+{% picture "{{page.image}}" --alt Weekly image %}
+
 This week was mostly devoted my PhD studies and getting documents for international passport for my smaller son.
 Since it took huge amount of time and effort not much other learning was held.
 I've finally found how Tara's root mantra spells in Tibetan and restarted learinig this awesome language: 

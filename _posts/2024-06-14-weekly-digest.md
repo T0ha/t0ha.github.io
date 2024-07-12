@@ -24,7 +24,7 @@ categories:
 published: true
 excerpt_separator: <!--more-->
 ---
-![Top image]({{page.image}})
+{% picture "{{page.image}}" --alt Dune Efa %}
 
 💻 This week I've mostly finished fixing timing issues in [TelemetryMetricsMnesia](https://github.com/T0ha/telemetry_metrics_mnesia) library for Elixir. Bought a monitor, keyboard and mouse 
 

@@ -20,7 +20,7 @@ categories:
 published: true
 excerpt_separator: <!--more-->
 ---
-![Top image]({{page.image}})
+{% picture "{{page.image}}" --alt Sunset on Baltic sea %}
 
 This is the first week of the summer! Congrats!
 

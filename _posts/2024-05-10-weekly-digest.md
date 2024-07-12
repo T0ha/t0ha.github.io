@@ -23,7 +23,8 @@ categories:
 published: true
 excerpt_separator: <!--more-->
 ---
-![Top image]({{page.image}})
+{% picture "{{page.image}}" --alt Vesak %}
+
 This was a short week but it's very important because of Saga-dava (ས་ག་ཟླ་བ།) month or Vesak (བི་ཤཱ་ཁཿ བཻ་ཤཱ་ཁ།) has started on  May, 9th. This is a month when Buddah was born, enlightened and died or achieved paranirvana. 
 For me most of this week was mostly devoted to practice and learning Buddhist wisdom. 
 <!--more--> 

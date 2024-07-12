@@ -2,7 +2,6 @@
 layout: post
 locale: en_US
 title: Weekly digest
-description: Weekly summary of what I've learnt and discovered all over there.
 image: /assets/images/weekly/20240329.jpg
 tags:
   - weekly
@@ -20,7 +19,8 @@ categories:
 published: true
 excerpt_separator: <!--more-->
 ---
-![Top image]({{ page.image }})
+{% picture "{{page.image}}" --alt Ancient timetable %}
+
 This was a short week for me. I have a day-off today but i still publish this digest. Since I was busy with PhD studies this week still not too much other stuff.
 The other achievements are
 - I've learnt to use and debug Leonardo.AI queries;

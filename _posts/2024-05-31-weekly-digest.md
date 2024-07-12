@@ -21,7 +21,7 @@ categories:
 published: true
 excerpt_separator: <!--more-->
 ---
-![Top image]({{page.image}})
+{% picture "{{page.image}}" --alt Tubten Shedubling in Moscow %}
 
 This was the last week of the spring. For me it's time for a big move...
 I've relocated from Perm to Zelenogradsk (Kaliningrad territory) with a couple of days in Moscow in between. It was a fantastic week-long family journey.

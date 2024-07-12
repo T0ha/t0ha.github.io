@@ -21,7 +21,7 @@ published: true
 excerpt_separator: <!--more-->
 ---
 
-![Top image]({{page.image}})
+{% picture "{{page.image}}" --alt Stupa in the mountains %}
 
 This is a Holy week for Buddhists since May, 23 is the 15th day of Saga-dava. This day is known as a Buddhas birth, enlightment and leaving for paranirvana (death) day. For me it was a day for small meditation retreat. I was meditating about 3 hrs. Since I'm not a great at it it was 4 sessions with different length and purpose. After that I got my first ever [empowerment from HH 41st  Sakya Trichen](https://www.youtube.com/live/WPp8gTxa-F4?si=VNU_Hw04IJW4Ala6).
 

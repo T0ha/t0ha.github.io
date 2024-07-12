@@ -2,7 +2,6 @@
 layout: post
 locale: en_US
 title: Weekly digest
-description: Weekly summary of what I've learnt and discovered all over there.
 image: /assets/images/weekly/20240412_cosmonaut.jpg
 tags:
   - weekly
@@ -22,7 +21,7 @@ categories:
 published: true
 excerpt_separator: <!--more-->
 ---
-![Top image]({{page.image}})
+{% picture "{{page.image}}" --alt Cosmonaut %}
 
 Today is the 63rd anniversary of the first successful crewed spaceflight. 
 However, I'm not completely sure it made human beings really better or happier at least in long-term.

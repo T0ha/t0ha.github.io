@@ -19,7 +19,7 @@ categories:
 published: true
 excerpt_separator: <!--more-->
 ---
-![Top image]({{ page.image }})
+{% picture "{{page.image}}" --alt Geshe %}
 
 This is a long week. We have 6 out of 7 business days before Spring holidays season.
 For me this week was full of adventures and achievements.

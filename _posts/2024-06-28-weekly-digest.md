@@ -14,7 +14,7 @@ categories:
 published: true
 excerpt_separator: <!--more-->
 ---
-![Baltic shore]({{page.image}})
+{% picture "{{page.image}}" --alt Baltic shore] %}
 
 💻 I had difficulties with connecting to my client's network through Cloudflare's ZeroTrust so I decided to spin up IPSec IKEv2 server for myself to avoid issues in future. Right now it works fine but there are some difficulties with LTE connected clients. 
 
