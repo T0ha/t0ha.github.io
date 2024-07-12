@@ -39,6 +39,7 @@ Here what I've learnt this week. It's a collection of materials  in several lang
 
 ### Books
 I've  finished the chapter about loving kindness started to read about compassion in Alan Wallace's "The Four Immeasurables: Practices to Open the Heart".
+
 ### Articles
 - [IPSec всемогущий / Хабр](https://habr.com/ru/articles/504484/)
 - [How to Install and Configure strongSwan VPN on Ubuntu Atlantic.Net](https://www.atlantic.net/vps-hosting/how-to-install-and-configure-strongswan-vpn-on-ubuntu/)

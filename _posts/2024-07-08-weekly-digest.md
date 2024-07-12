@@ -45,6 +45,7 @@ Here what I've learnt this week. It's a collection of materials  in several lang
 
 ### Books
 I'm  finishing Alan Wallace's "The Four Immeasurables: Practices to Open the Heart". Only one chapter is left about equanimity.
+
 ### Articles
 No or I can't remember. It's time to have a bit of rest from "content".
 
