@@ -16,6 +16,7 @@ categories:
 published: true
 excerpt_separator: <!--more-->
 ---
+
 Happy spring! 
 I'm sorry for missing previous Weekly Digest. Was a bit short of time. 
 Congrats with International Women's Day! (Better late than never ;-)
