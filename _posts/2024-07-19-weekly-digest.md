@@ -34,7 +34,7 @@ excerpt_separator: <!--more-->
 
 🤖 I was investigating HuggingFace for usage for PhD and Lama Bot projects.
 
- 📿 [Lama Bot (དླ་མ་བོཏ།)](https://t.me/compassion_lama_bot) is in progress of transition to self-hosted ifrastructure. Most of the week was investigating ways of hosting LLM by myself but decided that it's too expensive for non-profit indie project. So for now I'm going to use Google's Gemini.
+ 📿 [Lama Bot (དླ་མ་བོཏ།)](https://t.me/compassion_lama_bot) is in progress of transition to self-hosted infrastructure. Most of the week was investigating ways of hosting LLM by myself but decided that it's too expensive for non-profit indie project. So for now I'm going to use Google's Gemini.
 
 <!--more-->
 
