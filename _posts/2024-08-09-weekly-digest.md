@@ -33,7 +33,7 @@ excerpt_separator: <!--more-->
 
 🪷  I've mostly practiced shamatha.
 
- 📿 [Lama Bot (དླ་མ་བོཏ།)](https://t.me/compassion_lama_bot) is in progress of transition to self-hosted infrastructure. You are welcome to follow the process on [Twitch](https://www.twitch.tv/war1and), [YouTube](https://www.youtube.com/watch?v=8osAamu3GlU&list=PLX764RemXwZZ_XfWfV8tq1PvoM4Ebcdo8&pp=gAQBiAQB) and other social media.!
+ 📿 [Lama Bot (དླ་མ་བོཏ།)](https://t.me/compassion_lama_bot) is in progress of transition to self-hosted infrastructure. You are welcome to follow the process on [Twitch](https://www.twitch.tv/war1and), [YouTube](https://www.youtube.com/watch?v=8osAamu3GlU&list=PLX764RemXwZZ_XfWfV8tq1PvoM4Ebcdo8&pp=gAQBiAQB) and other social media!
 
 <!--more-->
 
