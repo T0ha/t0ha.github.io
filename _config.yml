@@ -76,6 +76,7 @@ plugins:
   - jekyll-remote-theme
   - classifier-reborn
   - jekyll_picture_tag
+  - jekyll-youtube
 
 # Exclude from processing.
 # The following items will not be processed, by default.
