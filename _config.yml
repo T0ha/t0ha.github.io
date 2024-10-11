@@ -50,8 +50,17 @@ minima:
       user_url: https://stackoverflow.com/users/3489550/t0ha
     - platform: telegram
       user_url: https://t.me/war1and
+    - platform: youtube
+      user_url: https://www.youtube.com/c/AntonShvein
+    - platform: mastodon
+      user_url: https://mastodon.social/@t0ha
+    - platform: pinterest
+      user_url: https://pin.it/doYiemUff
+      #    - platform: twitch
+      #      user_url: https://www.twitch.tv/war1and
 
 header_pages:
+  - about-me.md
   - projects.md
   - index.md
   - contacts.md
