@@ -7,16 +7,28 @@ tags:
   - weekly
   - learn
   - digest
-status: idea
+status: published
 categories:
   - en
   - weekly
-  - automation
 published: true
 excerpt_separator: <!--more-->
 ---
-![Top image](\{\{page.image\}\})
-Happy spring! 
+{% picture "{ {page.image}}" --alt Top image %}
+
+💻 
+
+🏃 
+
+🔬 
+
+📽️ 
+
+🪷 My practice is a bit poorer this week. I've missed some days and mostly practiced shamatha.
+
+🤖 
+
+ 📿 [Lama Bot (དླ་མ་བོཏ།)](https://t.me/compassion_lama_bot) has 3 daily active users for now. It's definitely a success!
 
 <!--more-->
 
@@ -34,5 +46,8 @@ Here what I've learnt this week. It's a collection of materials  in several lang
 ### Videos
 - 
 
+### Cources
+-
+
 ### Telegram
-- 
+- [Будда - мой психотерапевт](https://t.me/Buddha_is_my_theropist_ru)
