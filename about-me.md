@@ -18,4 +18,6 @@ permalink: /about/
 
 📿 I'm a Mahayana Buddhist.
 
+🗣️ My mother tongue is Russian. I communicate in English as well. Also I studied French and Latin but so so. Learning Tibetan (བོད་སྐད་)
+
 ⚗️ I'm Master of Biology.

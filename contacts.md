@@ -11,7 +11,10 @@ contacts:
       user_url: https://twitter.com/T0ha666
     - platform: linkedin
       title: Anton Shvein
-      user_url: https://www.linkedin.com/in/anton-shvein/
+      user_url: https://www.linkedin.com/in/anton-shvein/ 
+    - platform: mastodon
+      title: "@t0ha@mastodon.social"
+      user_url: https://mastodon.social/@t0ha
   other:
     - platform: github
       title: T0ha
@@ -19,6 +22,12 @@ contacts:
     - platform: stackoverflow
       title: T0ha
       user_url: https://stackoverflow.com/users/3489550/t0ha
+    - platform: youtube
+      title: Anton Shvein
+      user_url: http://www.youtube.com/@AntonShvein
+    - platform: twitch
+      title: war1and
+      user_url: https://www.twitch.tv/war1and
   messanger:
     - platform: telegram
       title: "@war1and"
