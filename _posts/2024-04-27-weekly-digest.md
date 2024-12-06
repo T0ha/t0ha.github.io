@@ -29,7 +29,7 @@ For me this week was full of adventures and achievements.
 - I received live teachings from Jampa Tanjuta (ཇམ་པ་ཏན་ཡུ་ཏ་) (not sure how to spell, just my guess).
 - I learnt a lot about TG channels and bots development and promoting.
 - I listened a couple of interviews to guess how people search help when they have mental conditions.
-- I've published first version of [Lama Bot](t.me/compassion_lama_bot) (mostly Russian for now) and took part in [Join us for the Coze AI Bot Challenge: $3,000 in Prizes! - DEV Community](https://dev.to/devteam/join-us-for-the-coze-ai-bot-challenge-3000-in-prizes-4dp7) with it. Pls, talk to him to help us win ;-)
+- I've published first version of [Lama Bot](https://t.me/compassion_lama_bot) (mostly Russian for now) and took part in [Join us for the Coze AI Bot Challenge: $3,000 in Prizes! - DEV Community](https://dev.to/devteam/join-us-for-the-coze-ai-bot-challenge-3000-in-prizes-4dp7) with it. Pls, talk to him to help us win ;-)
  
 
 

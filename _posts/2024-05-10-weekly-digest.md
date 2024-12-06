@@ -32,7 +32,7 @@ For me most of this week was mostly devoted to practice and learning Buddhist wi
 - I finished introductory part of "Lam rim marathon" course from FPMT.
 - I started to read "Lam rim udon" in both Russian and Tibetam.
 - I practice a lot, donate to Buddhist organisations and trying my best to follow the path.
-- I've created a roadmap for  [Lama Bot](t.me/compassion_lama_bot).
+- I've created a roadmap for  [Lama Bot](https://t.me/compassion_lama_bot).
 - I've updated my altar: changed the book to "Lan Rim U Don" and added a couple more offerings.
 
 ## Weekly Learn

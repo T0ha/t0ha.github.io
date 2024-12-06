@@ -19,7 +19,7 @@ excerpt_separator: <!--more-->
 
 Happy Spring and Labour Day! 
 This week was very short. It has only 2 business days due to holidays. 
-It was mostly devoted to  [Lama Bot](t.me/compassion_lama_bot) and Dharma studies.
+It was mostly devoted to  [Lama Bot](https://t.me/compassion_lama_bot) and Dharma studies.
 
 <!--more-->
 
