@@ -42,6 +42,8 @@ minima:
   social_links:
     - platform: twitter
       user_url: https://twitter.com/T0ha666
+    - platform: bluesky
+      user_url: https://bsky.app/profile/t0ha.ru
     - platform: github
       user_url:  https://github.com/T0ha
     - platform: linkedin

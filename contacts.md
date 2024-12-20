@@ -9,6 +9,9 @@ contacts:
     - platform: twitter
       title: "@t0ha666"
       user_url: https://twitter.com/T0ha666
+    - platform: bluesky
+      title: "@t0ha.ru"
+      user_url: https://bsky.app/profile/t0ha.ru
     - platform: linkedin
       title: Anton Shvein
       user_url: https://www.linkedin.com/in/anton-shvein/ 
