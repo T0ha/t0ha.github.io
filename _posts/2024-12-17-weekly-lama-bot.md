@@ -23,12 +23,14 @@ categories:
   - buildinpublic
   - lamabot
 published: true
+excerpt_separator: <!--more-->
 ---
 {% picture "{{page.image}}" --alt Lama Bot v2 is born %}
 
 **Happy second birthday [Lama Bot (དླ་མ་བོཏ།)](https://t.me/compassion_lama_bot)!!**
 
 In Lama's case second birthday is not a 2 years anniversary but a day when second version of Lama Bot is ready to help you our dear users and supporters. 
+<!--more-->
 
 Now it works on its own platform which gives us a lot of freedom to make it better on day to day bases and be sure that we can keep our promises.
 
