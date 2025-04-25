@@ -41,7 +41,6 @@ Here what I've learnt this week. It's a collection of materials  in several lang
 ### Books
 Not much, mostly lectures on ecology for PhD.
 ### Articles
-- [I Found the Best 2 Ways to Make Money with AI](https://iqmike.medium.com/i-found-the-best-2-ways-to-make-money-with-ai-02e7e73af754)
 
 ### Videos
 - Just nothing.
