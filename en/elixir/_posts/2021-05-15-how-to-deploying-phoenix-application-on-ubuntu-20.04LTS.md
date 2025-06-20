@@ -13,9 +13,7 @@ tags:
   - ubuntu
 status: advertise
 categories:
-  - en
   - devops
-  - elixir
 published: true
 ---
 ![Top image](/assets/images/posts/phoenix_ubuntu.png)

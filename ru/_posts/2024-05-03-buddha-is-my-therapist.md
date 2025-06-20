@@ -15,9 +15,8 @@ tags:
   - Буддизм
   - депрессия
   - выгорание
-status: idea
+status: advertise
 categories:
-  - ru
   - psychology
   - depression
 published: true

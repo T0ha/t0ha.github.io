@@ -13,9 +13,7 @@ tags:
   - Мара
 status: published
 categories:
-  - ru
   - buddhism
-  - translations
 published: true
 translation: https://www.lionsroar.com/how-to-practice-feeding-your-demons/
 author: Лама Тсультрим Аллион

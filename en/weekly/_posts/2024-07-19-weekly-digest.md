@@ -44,7 +44,7 @@ I'm finishing Alan Wallace's "The Four Immeasurables: Practices to Open the Hear
 - [Что нового в мире обхода блокировок Интернета в середине 2024 / Хабр](https://habr.com/ru/articles/828598/)
 - [Clustering Elixir From Laptop to Cloud · The Phoenix Files](https://fly.io/phoenix-files/clustering-elixir-from-laptop-to-cloud/)
 - [Начните работу с моделями Gemma  -  Google for Developers](https://ai.google.dev/gemma/docs/get_started)
-- [Стихотворение "Я не хочу быть среди тех..."]({% link _posts/2024-07-19-ya-ne-hochu-byt-sredi-teh.md %})
+- [Стихотворение "Я не хочу быть среди тех..."]({% post_url 2024-07-19-ya-ne-hochu-byt-sredi-teh %})
 
 ### Videos
 - [Перестать врать и калечить ложью свою жизнь - YouTube](https://www.youtube.com/watch?v=V7COUgMuBWw)

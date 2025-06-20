@@ -10,7 +10,6 @@ tags:
   - video
 status: idea
 categories:
-  - en
   - wisdom
 published: true
 ---

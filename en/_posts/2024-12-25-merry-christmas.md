@@ -8,8 +8,6 @@ tags:
   - holiday
   - xmas
 status: published
-categories:
-  - en
 published: true
 excerpt_separator: <!--more-->
 ---

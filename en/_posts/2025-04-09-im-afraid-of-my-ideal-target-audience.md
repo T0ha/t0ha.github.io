@@ -11,7 +11,6 @@ tags:
   - fear
 status: published
 categories:
-  - en
   - buildinpublic
   - lamabot
 published: true

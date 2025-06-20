@@ -11,7 +11,6 @@ tags:
   - ssh-tunnel
 status: advertise
 categories:
-  - en
   - faq
   - software
 published: true

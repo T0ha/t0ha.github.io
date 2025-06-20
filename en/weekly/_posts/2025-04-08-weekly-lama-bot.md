@@ -56,7 +56,7 @@ This week was devoted to Product Hunt launch:
 - embeddings was added to [this site](/) and [lamabot.io](https://lamabot.io?utm_source=t0ha.ru&utm_medium=post&utm_campaign=weekly),
 - social media content was mostly scheduled,
 - AMA session preparation is in progress,
-- an article published on [Medium](https://medium.com/@t0ha.ru/im-afraid-of-my-ideal-target-audience-6fc39945122b), [Reddit](https://www.reddit.com/r/indiehackers/comments/1jv2222/im_afraid_of_my_ideal_target_audience_what_should/) and [here]({% link _posts/2025-04-09-im-afraid-of-my-ideal-target-audience.md %}).
+- an article published on [Medium](https://medium.com/@t0ha.ru/im-afraid-of-my-ideal-target-audience-6fc39945122b), [Reddit](https://www.reddit.com/r/indiehackers/comments/1jv2222/im_afraid_of_my_ideal_target_audience_what_should/) and [here]({% post_url 2025-04-09-im-afraid-of-my-ideal-target-audience %}).
 ### Livestream Announcement
 
 In a week on Tuesday (2025-04-15) at 10:00 UTC we are going to continue working on tests and code quality. See you on [Twitch](https://www.twitch.tv/war1and) .

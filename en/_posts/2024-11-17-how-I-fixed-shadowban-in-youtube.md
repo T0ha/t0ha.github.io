@@ -10,7 +10,6 @@ tags:
   - law
 status: published
 categories:
-  - en
   - youtube
 published: true
 excerpt_separator: <!--more-->

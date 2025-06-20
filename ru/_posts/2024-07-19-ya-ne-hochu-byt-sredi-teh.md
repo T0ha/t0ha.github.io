@@ -9,7 +9,6 @@ tags:
   - стихи
 status: published
 categories:
-  - ru
   - poetry
 published: true
 ---
