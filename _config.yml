@@ -40,26 +40,36 @@ author:
 
 minima:
   social_links:
-    - platform: twitter
-      user_url: https://twitter.com/T0ha666
-    - platform: bluesky
-      user_url: https://bsky.app/profile/t0ha.ru
-    - platform: github
-      user_url:  https://github.com/T0ha
-    - platform: linkedin
-      user_url: https://www.linkedin.com/in/anton-shvein/
-    - platform: stackoverflow
-      user_url: https://stackoverflow.com/users/3489550/t0ha
-    - platform: telegram
-      user_url: https://t.me/war1and
-    - platform: youtube
-      user_url: https://www.youtube.com/c/AntonShvein
-    - platform: mastodon
-      user_url: https://mastodon.social/@t0ha
-    - platform: pinterest
-      user_url: https://pin.it/doYiemUff
-      #    - platform: twitch
-      #      user_url: https://www.twitch.tv/war1and
+    - title: Twitter (X)
+      icon: twitter
+      url: https://twitter.com/T0ha666
+    - title: Bluesky
+      icon: bluesky
+      url: https://bsky.app/profile/t0ha.ru
+    - title: GitHub
+      icon: github
+      url:  https://github.com/T0ha
+    - title: LinkedIn
+      icon: linkedin
+      url: https://www.linkedin.com/in/anton-shvein/
+    - title: Stack Overflow
+      icon: stack-overflow
+      url: https://stackoverflow.com/users/3489550/t0ha
+    - title: Telegram
+      icon: telegram
+      url: https://t.me/war1and
+    - title: YouTube
+      icon: youtube
+      url: https://www.youtube.com/c/AntonShvein
+    - title: Mastodon
+      icon: mastodon
+      url: https://mastodon.social/@t0ha
+    - title: Pinterest
+      icon: pinterest
+      url: https://pin.it/doYiemUff
+    - title: Twitch
+      icon: twitch
+      url: https://www.twitch.tv/war1and
 
 header_pages:
   - about-me.md
@@ -74,7 +84,7 @@ collections:
     sort_by: date
 
 # Build settings
-remote_theme: jekyll/minima
+remote_theme: "jekyll/minima@1e8a445"
 show_excerpts: true
 
 #theme: jekyll-theme-hydejack

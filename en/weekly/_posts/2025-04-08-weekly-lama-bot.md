@@ -26,7 +26,7 @@ categories:
   - lamabot
 published: true
 ---
-{%- if page.youtubeurn %}
+{%- if page.youtubeurl %}
     {%- youtube page.youtubeurl %}
 {% elsif page.image %}
     {%- picture "{{page.image.url}}" --alt {{page.image.alt}} %}
