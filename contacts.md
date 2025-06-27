@@ -56,7 +56,7 @@ contacts:
 - {{entry.platform | capitalize }}: [{{ entry.title | default: entry.user_url }}]({{entry.user_url}})
 {%- endfor %}
 
-## Social media
+## Social Media
 
 {% for entry in page.contacts.social %}
 - {{entry.platform | capitalize }}: [{{ entry.title | default: entry.user_url }}]({{entry.user_url}})

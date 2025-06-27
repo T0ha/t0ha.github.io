@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "FAQ: How to connect PGAdmin4 to DB through SSH tunnel with Public key authentication"
+title: "FAQ: How to Connect PGAdmin4 to DB through SSH Tunnel with Public Key Authentication"
 description: Discover the Ultimate Solution for Connecting pgAdmin4 to a Database via SSH Tunnel and Public Key Authentication! Our detailed FAQ article provides all the answers you need to establish a rock-solid connection. Say goodbye to connectivity issues and hello to seamless database management!
 image: /assets/images/posts/pgadmin_top.png
 tags:
@@ -27,7 +27,7 @@ configure connection in it . But after I tried with PGAdmin I realised
 that there was a real issue with it. In this article I'm going to
 describe the complete process and point my readers to pain points of it.
 
-### **Step 1: Generate public keys for SSH connection**
+### **Step 1: Generate Public Keys for SSH Connection**
 
 At first glance, generating ssh public key looks trivial. But as I
 discovered PGAdmin 4 doesn't support all key formats. I've never had
@@ -90,7 +90,7 @@ Input the name of the connection which you want to see in server tree
 into "**Name**" field. All the rest fields could be left as is if you
 don't know what you are doing.
 
-#### Switch to "Connection" tab.
+#### Switch to "Connection" Tab.
 
 ![PGAdmin4 Server settings - Connection tab](/assets/images/posts/pgadmin_connection.png)
 
@@ -100,7 +100,7 @@ connection, the "**Hostname**" field should be either "localhost" or
 "**Maintenance database**" fields depend on your exact DB connection
 settings and should be provided by DB admin.
 
-#### Switch to "SSH Tunnel" tab.
+#### Switch to "SSH Tunnel" Tab.
 
 Here you need to enable "**Use SSH tunneling**" and switch
 "**Authentication**" to "**Identity file**".

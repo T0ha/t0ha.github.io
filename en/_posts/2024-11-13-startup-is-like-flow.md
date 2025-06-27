@@ -1,7 +1,7 @@
 ---
 layout: post
 locale: en_US
-title: "Wisdom: Startup is like a mountain river"
+title: "Wisdom: Startup is Like a Mountain River"
 tags:
   - startup
   - whisdom

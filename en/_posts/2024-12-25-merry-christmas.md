@@ -8,7 +8,7 @@ tags:
   - holiday
   - xmas
 status: published
-published: true
+published: false
 excerpt_separator: <!--more-->
 ---
 {% picture "{{page.image}}" --alt Merry Christmas %}

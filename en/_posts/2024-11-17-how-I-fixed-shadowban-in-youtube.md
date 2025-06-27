@@ -1,7 +1,7 @@
 ---
 layout: post
 locale: en_US
-title: How I fixed "shadowban" in YouTube
+title: How I Fixed "Shadowban" in YouTube
 image: /assets/images/posts/youtube_shadowban/rapid_stats_growth.png
 tags:
   - youtube
@@ -25,7 +25,7 @@ Since I mostly stream weekly my views count grew week to week until October, 14 
 
 {% picture "/assets/images/posts/youtube_shadowban/growth_decline.png" --alt Views growing week to week %}
 
-## What happened?
+## What Happened?
 
 At this time I switched from publishing videos from Twitch to YouTube to streaming to both Twitch and YouTube at once. During setting up YouTube livestream configuration I decided that I do and tell nothing bad so they are good for children.  I thought if I put *"yes"* for *"video for kids"* it will make video's audience wider. As a result for the next month I had less than 10 daily viewers, sometimes even 0. I start to think it was a shadowban. 
 
