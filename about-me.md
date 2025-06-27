@@ -2,11 +2,11 @@
 layout: page
 title: Who am I?
 published: true
-permalink: /about/
+permalink: /
 ---
 ![Anton Shvein](/assets/images/t0ha.jpeg){: style="display: block; width: 25%; float: left; margin-right: 20px; margin-bottom: 20px;" }
 
-👤 I'm Anton Shvein. I'm 37. My other nicknames are T0ha or war1and.
+👤 I'm Anton Shvein. I'm 38. My other nicknames are T0ha or war1and.
 
 🌐 I live in Perm but travel a lot. 
 
@@ -14,10 +14,20 @@ permalink: /about/
 
 🧑‍🧑‍🧒‍🧒 I have a wife and 2 sons.
 
-📽️ I livestream my work on [Twitch](https://www.twitch.tv/war1and) and run a  [YouTube channel](https://www.youtube.com/c/AntonShvein) each Tuesday. Sometimes I write to this blog.
+📽️ I livestream my work on [Twitch](https://www.twitch.tv/war1and) and run a  [YouTube channel](https://www.youtube.com/c/AntonShvein). 
+
+✍️ I write to this [blog]({% link index.md %}).
 
 📿 I'm a Mahayana Buddhist.
 
 🗣️ My mother tongue is Russian. I communicate in English as well. Also I studied French and Latin but so so. Learning Tibetan (བོད་སྐད་)
 
 ⚗️ I'm Master of Biology.
+
+### Best Articles
+
+{% for post in site.posts %}
+{% unless post.categories contains "weekly" %}
+- [{{ post.title }}]({{ post.url }})
+{% endunless %}
+{% endfor %}
