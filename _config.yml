@@ -19,7 +19,7 @@
 # in the templates via {{ site.myvariable }}.
 
 title: ཏོ་ཧ་T0ha aka Anton Shvein
-logo: /assets/images/t0ha.jpeg
+avatar: /assets/images/t0ha.jpeg
 tagline: Full-stack developer, Enterpreneur and Master of Biology
 email: t0hashvein@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
@@ -38,39 +38,6 @@ author:
   name: Anton Shvein
   email: t0hashvein@gmail.com
 
-minima:
-  social_links:
-    - title: Twitter (X)
-      icon: twitter
-      url: https://twitter.com/T0ha666
-    - title: Bluesky
-      icon: bluesky
-      url: https://bsky.app/profile/t0ha.ru
-    - title: GitHub
-      icon: github
-      url:  https://github.com/T0ha
-    - title: LinkedIn
-      icon: linkedin
-      url: https://www.linkedin.com/in/anton-shvein/
-    - title: Stack Overflow
-      icon: stack-overflow
-      url: https://stackoverflow.com/users/3489550/t0ha
-    - title: Telegram
-      icon: telegram
-      url: https://t.me/war1and
-    - title: YouTube
-      icon: youtube
-      url: https://www.youtube.com/c/AntonShvein
-    - title: Mastodon
-      icon: mastodon
-      url: https://mastodon.social/@t0ha
-    - title: Pinterest
-      icon: pinterest
-      url: https://pin.it/doYiemUff
-    - title: Twitch
-      icon: twitch
-      url: https://www.twitch.tv/war1and
-
 header_pages:
   - about-me.md
   - projects.md
@@ -82,9 +49,10 @@ collections:
     sort_by: date
   buddhism:
     sort_by: date
-
+#toc: true
 # Build settings
-remote_theme: "jekyll/minima@1e8a445"
+remote_theme: "vszhub/not-pure-poole"
+#remote_theme: "jekyll/minima@1e8a445"
 show_excerpts: true
 
 #theme: jekyll-theme-hydejack
