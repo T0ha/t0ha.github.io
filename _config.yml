@@ -28,7 +28,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Enterpreneur and founder. Master of Biology. PhD studies in progress. Fond of travelling, boldering and sports.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://t0ha.ru" # the base hostname & protocol for your site, e.g. http://example.com
-cover_image: /assets/images/cover.jpg
+cover_image: /assets/images/cover.jpeg
 
 lsi: false
 paginate: 5
