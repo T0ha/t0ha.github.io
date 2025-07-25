@@ -14,7 +14,7 @@ permalink: /projects/
 - [{{project.path | remove: "_projects/" | remove: ".md"}}]({{project.github}})
       {%- else -%}
 - **{{project.path | remove: "_projects/" | remove: ".md"}}**
-      {%- endif %} - {{project.title}} (`{{project.tags | join: "` `"}}`)
+      {%- endif %} - {{project.title}}
     {% endif %}
 {% endfor %}
 

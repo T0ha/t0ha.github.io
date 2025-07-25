@@ -23,11 +23,16 @@ avatar: /assets/images/t0ha.jpeg
 tagline: Full-stack developer, Enterpreneur and Master of Biology
 email: t0hashvein@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  I'm a full-stack software developer for a dozen of years. Enterpreneur and founder. Master of Biology. PhD studies in progress. Fond of travelling, boldering and sports.
+  I'm a full-stack software developer for a dozen of years. 
+
+  Enterpreneur and founder. Master of Biology. PhD studies in progress. Fond of travelling, boldering and sports.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://t0ha.ru" # the base hostname & protocol for your site, e.g. http://example.com
+cover_image: /assets/images/cover.jpg
 
-lsi: true
+lsi: false
+paginate: 5
+paginate_path: "/blog/page:num/"
 
 twitter_username: t0ha666
 github_username:  T0ha
@@ -38,12 +43,6 @@ author:
   name: Anton Shvein
   email: t0hashvein@gmail.com
 
-header_pages:
-  - about-me.md
-  - projects.md
-  - index.md
-  - contacts.md
-
 collections:
   projects:
     sort_by: date
@@ -52,10 +51,8 @@ collections:
 #toc: true
 # Build settings
 remote_theme: "vszhub/not-pure-poole"
-#remote_theme: "jekyll/minima@1e8a445"
 show_excerpts: true
 
-#theme: jekyll-theme-hydejack
 plugins:
   - jekyll-feed
   - jekyll-import
@@ -66,6 +63,7 @@ plugins:
   - classifier-reborn
   - jekyll_picture_tag
   - jekyll-youtube
+  - jekyll-paginate
 
 # Exclude from processing.
 # The following items will not be processed, by default.
