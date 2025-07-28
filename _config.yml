@@ -50,7 +50,7 @@ collections:
     sort_by: date
 #toc: true
 # Build settings
-remote_theme: "vszhub/not-pure-poole"
+remote_theme: "t0ha/not-pure-poole"
 show_excerpts: true
 
 plugins:
