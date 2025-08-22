@@ -11,6 +11,7 @@ status: published
 categories:
   - poetry
 published: true
+description: Небольшое стихотворение.
 ---
 {% picture "{{page.image}}" --alt Горящая книга %}
 

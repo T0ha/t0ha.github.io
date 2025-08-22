@@ -12,6 +12,7 @@ status: idea
 categories:
   - wisdom
 published: true
+description: Don't allow the rain of conflicts ruin your dreams. Watch the video.
 ---
 <div style="margin: auto; width: 360px;">
 <iframe width="360" height="640" src="https://www.youtube.com/embed/eStm6niMlxo" title="Startup is like a mountain river #startup #startups #startupsuccess #wisdom #nature #river" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

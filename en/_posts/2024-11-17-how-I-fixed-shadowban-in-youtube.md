@@ -13,6 +13,7 @@ categories:
   - youtube
 published: true
 excerpt_separator: <!--more-->
+description: Just one flag in Youtube video settings stopped my videos from being promoted. Here is my journey...
 ---
 
 {% picture "{{page.image}}" --alt YouTube viewers stats %}
@@ -21,7 +22,6 @@ excerpt_separator: <!--more-->
 If you follow me you maybe know that I started my live streamer's journey at the begining of this year. At first I just did live coding sessions called ["Rock. Code. (N)VIM." on Twitch.](https://www.twitch.tv/war1and). After a while I started to publish the sessions to [YouTube](https://www.youtube.com/playlist?list=PLX764RemXwZZ_XfWfV8tq1PvoM4Ebcdo8). 
 Since I mostly stream weekly my views count grew week to week until October, 14 when it fall down rapidly. 👇
 
- <!--more-->
 
 {% picture "/assets/images/posts/youtube_shadowban/growth_decline.png" --alt Views growing week to week %}
 
