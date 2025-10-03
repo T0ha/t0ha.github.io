@@ -1,0 +1,17 @@
+views:
+  - type: table
+    name: Таблица
+    filters:
+      and:
+        - file.inFolder("_jobs")
+    order:
+      - file.name
+      - position
+      - company
+      - location
+      - start
+      - end
+      - skills
+      - project
+      - description
+      - responsibilities

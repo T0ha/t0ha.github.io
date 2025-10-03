@@ -1,0 +1,38 @@
+---
+layout: page
+title: Anton Shvein
+published: true
+permalink: /cv/
+right_sidebar: cv-right.html
+---
+<h2>Lead Full-Stack Elixir Developer</h2>
+<div class="bio">
+  <p>
+  Experienced Full-Stack Developer with more than 15 years of experience and a comprehensive understanding of the software development lifecycle. Adept at creating scalable high-loaded web applications, with strong expertise in both front-end and back-end development. Known for being responsible, dedicated, and an effective communicator, delivering high-quality solutions that meet business needs.
+  </p>
+</div>
+<h3 style="margin-bottom: 20px">Pre-Selected Project Experience</h3>
+<div class="jobs">
+  {% for job in site.jobs reversed %}
+  <div class="job" style="margin: 30px 0; border-bottom: 1px solid #ccc; padding-bottom: 20px;">
+    <b>{{job.position}}</b> at <i>{{job.company}}</i> ({{ job.start | date: "%b, %Y" }} - {{ job.end  | date: "%b, %Y" | default: "now" }})<br>
+    <div class="job-project"><p><b>Project: </b>{{ job.project }}</p></div>
+    <div class="job-description"><p>{{ job.description }}</p></div>
+    <div class="job-responsibilities">
+      <p>
+      <b>Responsibilities:</b>
+      {{ job.responsibilities }}
+      </p>
+    </div>
+    <div class="job-skills">
+
+      <b>Tools & Technologies:</b> 
+      <ul class="post-tags">
+        {% for skill in job.skills %}
+        <li class="post-tag">{{ skill }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+  {% endfor %}
+</div>

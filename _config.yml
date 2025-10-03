@@ -45,6 +45,8 @@ author:
   email: t0hashvein@gmail.com
 
 collections:
+  jobs:
+    sort_by: start
   projects:
     sort_by: date
   buddhism:

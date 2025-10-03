@@ -1,0 +1,28 @@
+- title: Elixir
+  url: https://elixir-lang.org
+- title: Erlang
+  url: https://www.erlang.org
+- title: Phoenix
+  url: https://www.phoenixframework.org
+- title: Ecto
+  url: https://hexdocs.pm/ecto
+- title: LiveView
+  url: https://hexdocs.pm/phoenix_live_view
+- title: PostgreSQL
+  url: https://www.postgresql.org
+- title: Docker
+  url: https://www.docker.com
+- title: Kubernetes
+  url: https://kubernetes.io
+- title: AWS
+  url: https://aws.amazon.com
+- title: RabbitMQ
+  url: https://www.rabbitmq.com
+- title: Redis
+  url: https://redis.io
+- title: C / C++
+  url: https://isocpp.org
+- title: JS / TS
+  url: https://javascript.info
+- title: React
+  url: https://reactjs.org

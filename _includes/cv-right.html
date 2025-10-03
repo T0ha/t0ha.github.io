@@ -1,0 +1,23 @@
+<div style="font-size: var(--body-font-size);">
+<div class="skills">
+  <h2>Skills</h2>
+  <ul>
+  {% for skill in site.data.skills %}
+    <li>
+      <a href="{{skill.url}}">{{ skill.title }}</a></li>
+  {% endfor %}
+  </ul>
+</div>
+<div class="education">
+  <h2>Education</h2>
+  <b>Perm State University, Perm</b><br/>
+  Master of Bilolgy and Biochemistry, 2010
+</div>
+<div class="languages">
+  <h2>Languages</h2>
+  <ul>
+    <li><b>English</b>: Upper-intermediate</li>
+    <li><b>Russian</b>: Native</li>
+  </ul>
+</div>
+</div>
