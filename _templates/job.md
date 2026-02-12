@@ -15,7 +15,7 @@ skills:
   - Protokol Buffers
   - gRPC
   - Docker
-linkedin_url: https://www.linkedin.com/company/yolo-group
-end: 2025-10-01
+linkedin_url:
+end:
 ---
 

@@ -15,7 +15,13 @@ right_sidebar: cv-right.html
 <div class="jobs">
   {% for job in site.jobs reversed %}
   <div class="job" style="margin: 30px 0; border-bottom: 1px solid #ccc; padding-bottom: 20px;">
-    <b>{{job.position}}</b> at <i>{{job.company}}</i> ({{ job.start | date: "%b, %Y" }} - {{ job.end  | date: "%b, %Y" | default: "now" }})<br>
+    <b>{{job.position}}</b> at 
+    {% if job.linkedin_url %}
+    <a href="{{job.linkedin_url}}">{{job.company}}</a> 
+    {% else %}
+    <i>{{job.company}}</i>
+    {% endif %}
+    ({{ job.start | date: "%b, %Y" }} - {{ job.end  | date: "%b, %Y" | default: "now" }})<br>
     <div class="job-project"><p><b>Project: </b>{{ job.project }}</p></div>
     <div class="job-description"><p>{{ job.description }}</p></div>
     <div class="job-responsibilities">
