@@ -39,7 +39,7 @@ I'm based in Perm, Russia, but I am fully remote-first. I'm someone who brings p
 
 **If you're building something that reduces suffering or if you know someone who does, let's talk.**
 
-• CV: [https://t0ha.ru/cv](https://t0ha.ru/cv)/
+• CV: [https://t0ha.dev/cv](https://t0ha.dev/cv)/
 
 • GitHub: [https://github.com/T0ha](https://github.com/T0ha)
 
