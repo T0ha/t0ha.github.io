@@ -1,0 +1,249 @@
+// =========================================================================
+//  CV page (/cv/)
+//  Screen tweaks + a dedicated print stylesheet so the page can be saved
+//  as a clean, professional PDF (or printed on paper).
+// =========================================================================
+
+// -------------------------------------------------------------------------
+//  Screen
+// -------------------------------------------------------------------------
+.job {
+  margin-bottom: 1.5rem;
+}
+
+// "Download PDF" button — only shown on screen, hidden when printing.
+.cv-print {
+  margin: 0 0 1.5rem;
+
+  &-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: .4rem;
+    padding: .5rem 1rem;
+    font: 600 0.9rem/1 var(--body-font);
+    color: #fff;
+    background: var(--link-color);
+    border: 0;
+    border-radius: var(--border-radius);
+    cursor: pointer;
+    text-decoration: none;
+    transition: background .15s ease;
+
+    &:hover { background: var(--link-hover-color); }
+  }
+}
+
+// -------------------------------------------------------------------------
+//  Print  ->  Save as PDF
+// -------------------------------------------------------------------------
+@media print {
+
+  // A4 with comfortable margins. Change `A4` to `letter` for US paper.
+  @page {
+    size: A4;
+    margin: 14mm 14mm 16mm;
+  }
+
+  // Make sure any intentional fills print, but default to ink-friendly B/W.
+  html,
+  body {
+    background: #fff !important;
+    color: #111 !important;
+    font-size: 10.5pt;
+    line-height: 1.42;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  // ---- Strip the site chrome ------------------------------------------
+  .sidebar-left,          // dark cover, avatar, nav, social icons
+  .navigation,
+  .social,
+  .cv-print,              // the on-screen download button
+  .footer {
+    display: none !important;
+  }
+
+  // ---- Layout: main experience column + right rail --------------------
+  // Pure's responsive widths live behind @media screen, so in print every
+  // column defaults to full width. Rebuild a tidy two-column layout.
+  .container.pure-g {
+    display: flex !important;
+    flex-flow: row nowrap !important;
+    align-items: flex-start !important;   // keep the right rail as tall as its content
+    gap: 7mm;
+    width: 100% !important;
+    margin: 0 !important;
+  }
+
+  .content.pure-u-1 {
+    width: auto !important;
+    flex: 1 1 auto !important;
+    min-width: 0;
+    padding: 0 !important;
+  }
+
+  .sidebar-right.pure-u-1 {
+    // The theme hides .sidebar-right at max-width: $lg-width, and an A4 print
+    // page is narrower than that, so force it back on for print.
+    display: block !important;
+    width: 58mm !important;
+    flex: 0 0 58mm !important;
+    padding: 0 !important;
+    border-left: 0.5pt solid #ccc;
+    padding-left: 6mm !important;
+  }
+
+  main,
+  article.page {
+    display: block !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    width: 100% !important;
+  }
+
+  // TOC wrapper is sticky on screen; neutralise for print.
+  .toc-wrapper {
+    position: static !important;
+    top: auto !important;
+    max-height: none !important;
+    overflow: visible !important;
+  }
+
+  // ---- Header block ----------------------------------------------------
+  .page-title {
+    font-size: 24pt;
+    line-height: 1.05;
+    margin: 0 0 1pt;
+    color: #000 !important;
+    letter-spacing: -0.2pt;
+  }
+
+  h2 {
+    font-size: 13pt;
+    font-weight: 600;
+    color: var(--link-color) !important;
+    margin: 0 0 8pt;
+  }
+
+  .bio p {
+    margin: 0 0 10pt;
+    font-size: 10pt;
+    color: #333 !important;
+  }
+
+  // Section heading: "Pre-Selected Project Experience"
+  article.page > h3 {
+    font-size: 12pt;
+    text-transform: uppercase;
+    letter-spacing: 0.6pt;
+    color: #000 !important;
+    margin: 0 0 8pt !important;
+    padding-bottom: 3pt;
+    border-bottom: 1.5pt solid #333;
+  }
+
+  // ---- Job entries -----------------------------------------------------
+  .job {
+    // Override the inline styles set in cv.html.
+    margin: 0 0 11pt !important;
+    padding: 0 0 9pt !important;
+    border-bottom: 0.5pt solid #ddd !important;
+    break-inside: avoid;
+    page-break-inside: avoid;
+
+    &:last-child {
+      border-bottom: 0 !important;
+      margin-bottom: 0 !important;
+    }
+  }
+
+  // First line: "<Position> at <Company> (dates)"
+  .job > b:first-child {
+    font-size: 11pt;
+    color: #000 !important;
+  }
+
+  .job-project p,
+  .job-description p,
+  .job-responsibilities p {
+    margin: 3pt 0;
+    font-size: 9.5pt;
+    color: #222 !important;
+  }
+
+  .job-description p { color: #444 !important; }
+
+  // ---- Links: keep them readable, don't dump URLs on paper ------------
+  a,
+  a:visited {
+    color: var(--link-color) !important;
+    text-decoration: none;
+  }
+
+  // ---- Tech tags -> compact, ink-light pills --------------------------
+  .job-skills {
+    margin-top: 4pt;
+
+    > b { font-size: 9.5pt; }
+  }
+
+  .post-tags {
+    display: inline;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .post-tag {
+    display: inline-block;
+    margin: 2pt 3pt 0 0;
+    padding: 1pt 6pt;
+    font-size: 8pt;
+    line-height: 1.4;
+    color: #333 !important;
+    background: #f2f2f2 !important;
+    border: 0.5pt solid #ccc;
+    border-radius: 3pt;
+  }
+
+  // ---- Right rail: Skills / Education / Languages ---------------------
+  .sidebar-right {
+    // The rail is wrapped in an inline `font-size: var(--body-font-size)`
+    // (18px) div; normalise everything to a compact print size.
+    font-size: 9pt;
+    color: #222 !important;
+
+    div { font-size: 9pt !important; }
+
+    h2 {
+      font-size: 11pt;
+      text-transform: uppercase;
+      letter-spacing: 0.5pt;
+      color: #000 !important;
+      margin: 0 0 5pt;
+      padding-bottom: 2pt;
+      border-bottom: 1pt solid #333;
+    }
+
+    .skills,
+    .education,
+    .languages {
+      margin-bottom: 12pt;
+      break-inside: avoid;
+      page-break-inside: avoid;
+    }
+
+    ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    li {
+      margin: 0 0 2pt;
+      font-size: 9pt;
+      color: #222 !important;
+    }
+  }
+}
