@@ -45,8 +45,9 @@ contacts:
 ---
 
 ## Geo
-- Location: Perm, Russia
-- Time zone: UTC+5
+- Born: Perm, Russia
+- Location: Batumi, Georgia
+- Time zone: UTC+4
 
 ## Email
 <t0hashvein@gmail.com>
