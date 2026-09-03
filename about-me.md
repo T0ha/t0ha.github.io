@@ -9,7 +9,7 @@ permalink: /
 
 👤 I'm Anton Shvein. I'm 38. My other nicknames are T0ha or war1and.
 
-🌐 I live in Perm but travel a lot. 
+🌐 I was born in Perm but live in Batumi right now and travel a lot. 
 
 🧑‍💻 I'm a software developer for more than a dozen years. Currently my main focus is full-stack web and chat-bot development in [Erlang](https://erlang.org) and [Elixir](https://elixir-lang.org). I use [Phoenix web framework](https://phoenixframework.org) a lot in my daily job.
 
