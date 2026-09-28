@@ -46,7 +46,7 @@ the wrong things.
 
 ## A two-minute GitHub poller in Ash and Oban
 
-In [Camelot AI](https://camelotai.tech?utm_source=t0ha.dev&utm_medium=post&utm_campaign=public-beta)
+ In [Camelot AI](https://camelotai.tech?utm_source=t0ha.dev&utm_medium=post&utm_campaign=2026-09-18-63-dollars-in-one-night)
 a task moves through stages on a kanban
 board. When the agent opens a pull request, the task lands in the `pr` stage and
 a poller takes over: every two minutes it checks GitHub and reacts. Merged →
@@ -137,8 +137,8 @@ have not acted on it yet").
 
 Level-triggered is usually the right default in a reconciliation loop. It is what
 makes the loop self-healing: if you miss an event, the next pass still sees the
-state and fixes it. The first article in this series is an argument in favour of
-exactly that style.
+state and fixes it. [The first article in this series]({% post_url 2026-09-04-supervising-what-you-dont-own %})
+is an argument in favour of exactly that style.
 
 The difference is the actuator on the other end.
 
