@@ -18,6 +18,13 @@ contacts:
     - platform: mastodon
       title: "@t0ha@mastodon.social"
       user_url: https://mastodon.social/@t0ha
+  freelance:
+    - platform: Fiverr
+      title: Anton Shvein
+      user_url: https://www.fiverr.com/s/emm681g
+    - platform: Upwork   
+      title: Anton Shvein
+      user_url: https://www.upwork.com/freelancers/~0104c033770da1c0b1?mp_source=share
   other:
     - platform: github
       title: T0ha
@@ -60,6 +67,12 @@ contacts:
 ## Social Media
 
 {% for entry in page.contacts.social %}
+- {{entry.platform | capitalize }}: [{{ entry.title | default: entry.user_url }}]({{entry.user_url}})
+{%- endfor %}
+
+## Freelance Platforms
+
+{% for entry in page.contacts.freelance %}
 - {{entry.platform | capitalize }}: [{{ entry.title | default: entry.user_url }}]({{entry.user_url}})
 {%- endfor %}
 
